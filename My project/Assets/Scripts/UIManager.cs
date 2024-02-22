@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject gardenScreen;
     [SerializeField] private GameObject growpediaScreen;
     [SerializeField] private GameObject profileScreen;
+    [SerializeField] private GameObject expertHelpScreen;
 
     [Header("Scroll Parents")]
     [SerializeField] private GameObject gardenContentParent;
@@ -20,6 +21,7 @@ public class UIManager : MonoBehaviour
         gardenScreen.SetActive(false);
         growpediaScreen.SetActive(false);
         profileScreen.SetActive(false);
+        expertHelpScreen.SetActive(false);
     }
 
     public void OpenMainMenu()
@@ -44,5 +46,11 @@ public class UIManager : MonoBehaviour
     {
         CloseAllScreens();
         profileScreen.SetActive(true);
+    }
+
+    public void OpenExpertHelpScreen()
+    {
+        CloseAllScreens();
+        expertHelpScreen.SetActive(true);
     }
 }
