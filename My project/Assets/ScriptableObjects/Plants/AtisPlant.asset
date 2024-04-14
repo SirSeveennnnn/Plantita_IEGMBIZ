@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12355a327984f69409fd5940e7e973bd, type: 3}
+  m_Name: AtisPlant
+  m_EditorClassIdentifier: 
+  plantName: Atis
+  scientificName: Annona squamosa
+  plantImage: {fileID: 21300000, guid: a4629bd4ad58c1844b8ee676fea15afa, type: 3}
+  idealClimateAndTemperature: 'Temperatures between 50 and 85 degrees Fahrenheit
+    (10 and 30 degrees Celsius) are ideal for sugar apple tree growth. The sugar
+    apple tree is a tropical tree, yet it can withstand mild cold. '
+  watering: A mature tree has to be watered every 12 to 15 days on average. To promote
+    vegetative development and blossoms on the newly sprouted branches, there must
+    be sufficient moisture in the soil. Every two to four weeks during the tree's
+    slow development phase and every three to five days throughout its flowering
+    and fruit-setting phase are when it will need to be watered. Fruit is more susceptible
+    than leaves to dryness, thus it is important to avoid water stress and maintain
+    moist soil during this period.
+  soil: It grows in a wide range of soils, from sandy, clay to loam, but the healthiest
+    and the productive tree is grown in fertile, loose, deep, and neutral or slightly
+    alkaline soil that is not sandy with good drainage and aeration.
+  humidity: Humidity should be maintained above 60% especially during the flowering
+    period.

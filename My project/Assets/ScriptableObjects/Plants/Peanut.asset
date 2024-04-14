@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12355a327984f69409fd5940e7e973bd, type: 3}
+  m_Name: Peanut
+  m_EditorClassIdentifier: 
+  plantName: Peanut
+  scientificName: Arachis hypogaea
+  plantImage: {fileID: 21300000, guid: 4edb6e37e8de82b4e9e24dfbbca9f564, type: 3}
+  idealClimateAndTemperature: Peanuts grow best at temperatures between 86 and 93
+    degrees Fahrenheit. Damage to flowers could result from higher temperatures.
+  watering: During the growing season, peanuts require around one inch of rain or
+    irrigation every week. Watering is very important right after planting to promote
+    germination and seedling establishment. It's also important to water again 60
+    to 110 days later, once the pegs have penetrated the soil and are starting to
+    fill with peanut clusters.
+  soil: "The ideal soil conditions for peanut growth are loose, well-drained, sandy
+    loam with a pH range of 6.0\u20136.5, which is slightly acidic. Steer clear of
+    hard clay soil that drains poorly. Never plant peanuts in the same area that
+    you have previously used to grow beans or peas."
+  humidity: While the plants are growing, slightly humid circumstances are ideal,
+    but before the harvest, a period of dry weather is required.

@@ -1,7 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class UIManager : MonoBehaviour
 {
@@ -11,9 +8,16 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject growpediaScreen;
     [SerializeField] private GameObject profileScreen;
     [SerializeField] private GameObject expertHelpScreen;
+    [SerializeField] private GameObject plantInfoScreen;
+    [SerializeField] private GameObject myGardenScreen;
 
     [Header("Scroll Parents")]
     [SerializeField] private GameObject gardenContentParent;
+
+    [Space(10)]
+    public PlantInfoHandler infoHandler;
+    public MyGardenHandler myGardenHandler;
+
 
     private void CloseAllScreens()
     {
@@ -22,6 +26,8 @@ public class UIManager : MonoBehaviour
         growpediaScreen.SetActive(false);
         profileScreen.SetActive(false);
         expertHelpScreen.SetActive(false);
+        plantInfoScreen.SetActive(false);
+        myGardenScreen.SetActive(false);
     }
 
     public void OpenMainMenu()
@@ -52,5 +58,19 @@ public class UIManager : MonoBehaviour
     {
         CloseAllScreens();
         expertHelpScreen.SetActive(true);
+    }
+
+    public void OpenPlantInfoScreen(PlantHolder holder)
+    {
+        CloseAllScreens();
+        infoHandler.UpdateData(holder.data);
+        plantInfoScreen.SetActive(true);
+    }
+
+    public void OpenMyGardenScreen(PlantData plantData)
+    {
+        CloseAllScreens();
+        myGardenHandler.OnOpenGallery(plantData);
+        myGardenScreen.SetActive(true);
     }
 }

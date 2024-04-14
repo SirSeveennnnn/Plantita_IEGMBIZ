@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12355a327984f69409fd5940e7e973bd, type: 3}
+  m_Name: VenusFlyTrap
+  m_EditorClassIdentifier: 
+  plantName: Venus Fly Trap
+  scientificName: Dionaea muscipula
+  plantImage: {fileID: 21300000, guid: f2bde8903a04a384aa4247eb40207141, type: 3}
+  idealClimateAndTemperature: "Venus flytraps like temperatures between 70\xB0F and
+    95\xB0F, while some kinds can withstand 40\xB0F in the winter under cover. "
+  watering: Never offer your plants anything straight from the faucet; it's usually
+    overly acidic or may include excessive amounts of minerals. Alternatively, use
+    distilled water or rely on rainfall.
+  soil: The Venus flytrap grows best in poor, acidic soil that drains well yet remains
+    moist. Steer clear of conventional potting soil, as some may include additional
+    fertilizers.
+  humidity: Keep the surroundings damp for the best Venus flytrap maintenance. Turn
+    on a fan in the room where you store your Venus flytrap plants because proper
+    air circulation is essential for their growth.

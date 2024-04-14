@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf43c4b24b2850141871cb8ffbc4a0f2, type: 3}
+  m_Name: TempGardenData
+  m_EditorClassIdentifier: 
+  atisList:
+  - {fileID: 21300000, guid: c44d09a51fae5414b8062fbdfca6c9b2, type: 3}
+  - {fileID: 21300000, guid: 3f5ce2900feefb640b04c68d29a7c852, type: 3}
+  - {fileID: 21300000, guid: 88317f0b4cea46b408a9909b5011e07e, type: 3}
+  peanutList:
+  - {fileID: 21300000, guid: 2bfa9d0cde6e9114b9ea223c762c4508, type: 3}
+  - {fileID: 21300000, guid: 1b8a80165d0c2fa458e0e5c158496a5f, type: 3}
+  snakePlantList:
+  - {fileID: 21300000, guid: f7f2f2bdbadd972439cc5266b7b4aecb, type: 3}
+  - {fileID: 21300000, guid: 2e836d7f7e9af794580fcd6a1e3ed7a2, type: 3}
+  - {fileID: 21300000, guid: 36b34ab0f828c2c4385d640ffc2d6f97, type: 3}
+  - {fileID: 21300000, guid: 0981ca29fae8dee44bf29852b7d5e52a, type: 3}
+  venusFlyTrapList:
+  - {fileID: 21300000, guid: d8b96fcf77853104fae239861bde0b53, type: 3}
